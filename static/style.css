@@ -1,0 +1,148 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Style */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f7f7f7, #e2e2e2);
+    color: #333;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Container for the main content */
+.container {
+    width: 100%;
+    max-width: 600px;
+    padding: 40px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+}
+
+/* Heading Styles */
+h2 {
+    color: #4a90e2;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    padding: 18px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    resize: vertical;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.3s ease;
+}
+
+textarea:focus {
+    outline: none;
+    box-shadow: 0 0 15px rgba(72, 117, 245, 0.6);
+}
+
+/* Button Styles */
+input[type="submit"] {
+    background-color: #4a90e2;
+    color: white;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 20px;
+    width: 60%;
+}
+
+input[type="submit"]:hover {
+    background-color: #357abd;
+    transform: translateY(-3px);
+}
+
+/* Result Section */
+.result {
+    background: #f0f8ff;
+    padding: 25px;
+    margin-top: 40px;
+    border-left: 5px solid #4a90e2;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.result p {
+    font-size: 18px;
+    color: #333;
+}
+
+.result blockquote {
+    background-color: #fff;
+    border-left: 5px solid #ddd;
+    padding: 15px 20px;
+    font-style: italic;
+    margin: 15px 0;
+    color: #555;
+}
+
+/* Link Styles */
+a {
+    color: #4a90e2;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .container {
+        padding: 25px;
+        margin: 20px;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    textarea {
+        height: 160px;
+    }
+
+    input[type="submit"] {
+        font-size: 16px;
+        padding: 12px 24px;
+    }
+
+    .result {
+        padding: 20px;
+    }
+}
