@@ -2,3 +2,5 @@
 __pycache__/
 venv/
 requirements.txt/
+model/main_category_classifier.pkl
+model/sub_category_classifier.pkl
