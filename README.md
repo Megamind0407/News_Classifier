@@ -13,6 +13,9 @@ A machine learning project to classify news articles into **main categories** an
 - Supports model saving and reusability with `joblib`
 
 ---
+![image](https://github.com/user-attachments/assets/5b289e5a-aeda-4510-a91c-fbc6d95b52b8)
+
+![image](https://github.com/user-attachments/assets/75f2b954-c235-4203-9210-f9772a7040af)
 
 ## 🧠 Model Overview
 
